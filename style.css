@@ -240,6 +240,13 @@ body {
     font-size: 0.85rem;
     border-radius: 6px;
 }
+.btn.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid var(--border-color);
+    color: var(--text-muted);
+}
 
 /* Section Header */
 .section-header {
